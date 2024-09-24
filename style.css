@@ -7,7 +7,11 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-image: url('URL_DA_IMAGEM');
+    background-size: cover; /* A imagem cobre toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa enquanto rola a página */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
     color: #333;
 }
 
