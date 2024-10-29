@@ -6,12 +6,12 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #ebd234;
+    background-color: #bc1bd1;
     color: #333;
 }
 
 header {
-    background-color: #ebd234;
+    background-color: #9c0ab9;
     padding: 20px;
     text-align: center;
 }
@@ -91,7 +91,7 @@ nav ul li a {
 }
 
 footer {
-    background-color: #f58014;
+    background-color: #b80fe2;
     padding: 20px;
     text-align: center;
     color: white;
