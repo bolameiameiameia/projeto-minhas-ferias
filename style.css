@@ -1,110 +1,98 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #fffbf2;
+    font-family: Arial, sans-serif;
+    background-color: #ebd234;
     color: #333;
 }
 
 header {
-    background-color: #ffcc00;
-    padding: 20px 0;
+    background-color: #ebd234;
+    padding: 20px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    color: #c41a1a;
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
     margin: 0 15px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
-    font-weight: bold;
+    color: #ffffff;
 }
 
-main {
-    padding: 20px;
+#banner {
+    background-color: #f58014;
+    padding: 50px 20px;
+    text-align: center;
 }
 
-h2 {
-    color: #d2691e;
+#banner h2 {
+    font-size: 2.5em;
 }
 
-.menu-category {
-    margin-bottom: 20px;
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
-.menu-category h3 {
-    color: #ff5722;
+#produtos {
+    padding: 40px;
+    text-align: center;
 }
 
-section {
-    margin-bottom: 40px;
+.produto {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.gallery {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-}
-
-.gallery img {
+.produto img {
     width: 150px;
-    height: auto;
-    cursor: pointer;
-    transition: transform 0.3s;
+    height: 150px;
 }
 
-.gallery img:hover {
-    transform: scale(1.05);
+.produto h3 {
+    margin-top: 10px;
+}
+
+.comprar {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comprar:hover {
+    background-color: #eb9100;
 }
 
 footer {
+    background-color: #f58014;
+    padding: 20px;
     text-align: center;
-    padding: 20px 0;
-    background-color: #333;
     color: white;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin: auto;
-}
-
-form label {
-    margin: 10px 0 5px;
-}
-
-form input, form textarea {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-form button {
-    padding: 10px;
-    background-color: #ff5722;
-    border: none;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-form button:hover {
-    background-color: #e64a19;
 }
