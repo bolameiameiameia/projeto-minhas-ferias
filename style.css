@@ -1,98 +1,73 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #ebd234;
-    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
 }
 
 header {
-    background-color: #f5b70b;
-    padding: 20px;
+    background-color: #ffcc00;
+    padding: 10px 0;
     text-align: center;
-}
-
-header h1 {
-    color: #c41a1a;
 }
 
 nav ul {
     list-style: none;
-    display: flex;
-    justify-content: center;
+    padding: 0;
 }
 
 nav ul li {
+    display: inline;
     margin: 0 15px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #333;
 }
 
-#banner {
-    background-color: #f58014;
-    padding: 50px 20px;
-    text-align: center;
+main {
+    padding: 20px;
 }
 
-#banner h2 {
-    font-size: 2.5em;
+h2 {
+    color: #d2691e;
 }
 
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #ff9900;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-#produtos {
-    padding: 40px;
-    text-align: center;
-}
-
-.produto {
-    display: inline-block;
-    margin: 20px;
-    padding: 10px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.produto img {
-    width: 150px;
-    height: 150px;
-}
-
-.produto h3 {
-    margin-top: 10px;
-}
-
-.comprar {
-    background-color: #ff6600;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.comprar:hover {
-    background-color: #eb9100;
+section {
+    margin-bottom: 40px;
 }
 
 footer {
-    background-color: #f58014;
-    padding: 20px;
     text-align: center;
+    padding: 10px 0;
+    background-color: #333;
     color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #ffcc00;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ffd700;
 }
