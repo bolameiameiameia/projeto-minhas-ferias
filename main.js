@@ -1,7 +1,5 @@
-const botaoComprar = document.querySelectorAll('.comprar');
-
-botaoComprar.forEach(botao => {
-    botao.addEventListener('click', () => {
-        alert('Produto adicionado ao carrinho!');
+document.querySelectorAll("#galeria img").forEach(function(img) {
+    img.addEventListener("click", function() {
+        this.style.backgroundColor = this.style.backgroundColor === 'lightyellow' ? '' : 'lightyellow';
     });
 });
