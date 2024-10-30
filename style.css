@@ -2,97 +2,75 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #bc1bd1;
+    background-color: #f7f7f7;
     color: #333;
 }
 
-header {
-    background-color: #b9810a;
+.menu-header {
+    background-color: #333;
+    color: #fff;
     padding: 20px;
     text-align: center;
 }
 
-header h1 {
-    color: #eef070;
+.menu-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
 }
 
-nav ul {
-    list-style: none;
+.menu-items {
     display: flex;
     justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    background: url('path-to-your-background-image/donut-pattern.png') no-repeat center;
+    background-size: cover;
 }
 
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-#banner {
-    background-color: #f58014;
-    padding: 50px 20px;
-    text-align: center;
-}
-
-#banner h2 {
-    font-size: 2.5em;
-}
-
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #ff9900;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-#produtos {
-    padding: 40px;
-    text-align: center;
-}
-
-.produto {
-    display: inline-block;
-    margin: 20px;
-    padding: 10px;
-    background-color: white;
-    border-radius: 8px;
+.menu-item {
+    background-color: #fff;
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 20px;
+    text-align: center;
 }
 
-.produto img {
-    width: 150px;
-    height: 150px;
+.menu-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
 }
 
-.produto h3 {
-    margin-top: 10px;
+.menu-item h2 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
 }
 
-.comprar {
-    background-color: #ff6600;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.menu-item p {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
 }
 
-.comprar:hover {
-    background-color: #eb9100;
+.menu-item a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-item a:hover {
+    text-decoration: underline;
 }
 
 footer {
-    background-color: #b98c11;
-    padding: 40px;
     text-align: center;
-    color: white;
+    padding: 10px;
+    font-size: 0.8em;
+    color: #666;
 }
