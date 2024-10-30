@@ -2,75 +2,97 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
 body {
-    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    background-color: #bc1bd1;
     color: #333;
 }
 
-.menu-header {
-    background-color: #333;
-    color: #fff;
+header {
+    background-color: #b9810a;
     padding: 20px;
     text-align: center;
 }
 
-.menu-header h1 {
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
+header h1 {
+    color: #eef070;
 }
 
-.menu-items {
+nav ul {
+    list-style: none;
     display: flex;
     justify-content: center;
-    gap: 20px;
-    padding: 40px 20px;
-    background: url('path-to-your-background-image/donut-pattern.png') no-repeat center;
-    background-size: cover;
 }
 
-.menu-item {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 200px;
-    padding: 20px;
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#banner {
+    background-color: #f58014;
+    padding: 50px 20px;
     text-align: center;
 }
 
-.menu-item img {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 10px;
+#banner h2 {
+    font-size: 2.5em;
 }
 
-.menu-item h2 {
-    font-size: 1.2em;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.menu-item p {
-    font-size: 0.9em;
-    color: #666;
-    margin-bottom: 10px;
-}
-
-.menu-item a {
-    color: #007bff;
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: white;
     text-decoration: none;
-    font-weight: bold;
+    border-radius: 5px;
 }
 
-.menu-item a:hover {
-    text-decoration: underline;
+#produtos {
+    padding: 40px;
+    text-align: center;
+}
+
+.produto {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.produto img {
+    width: 150px;
+    height: 150px;
+}
+
+.produto h3 {
+    margin-top: 10px;
+}
+
+.comprar {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comprar:hover {
+    background-color: #eb9100;
 }
 
 footer {
+    background-color: #b98c11;
+    padding: 40px;
     text-align: center;
-    padding: 10px;
-    font-size: 0.8em;
-    color: #666;
+    color: white;
 }
